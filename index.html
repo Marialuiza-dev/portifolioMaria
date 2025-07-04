@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio do Maria Luíza Torres, desenvolvedor web fullstack.">
+    <meta name="author" content="Maria Luíza Torres">
+    <meta name="keywords" content="portfólio, desenvolvedor, web, fullstack, Maria Luíza Torres, HTML, CSS, JavaScript">
+    <link rel="icon" href="./assets/img/favicon.svg" />
+    <title>Portfólio da Maria Luíza Torres</title>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+
+        <div id="header_content">
+            <!-- Título do cabeçalho -->
+            <div id="titulo">
+                <a href="#">Universo</a>
+            </div>
+
+            <!-- Menu -->
+            <div id="menu">
+
+                <!-- Barra de Navegação -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção principal da página -->
+    <main>
+
+        <!-- Seção Home -->
+        <section id="home">
+
+            <!-- Texto da seção Home -->
+            <article id="home_texto">
+                <h4>Bem-vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
+                <p>Mussum Ipsum, cacilds vidis litro abertis.  Interagi no mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! A ordem dos tratores não altera o pão duris. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                <a href="https://github.com/Marialuiza-dev" target="_blank">Explorar</a>
+            </article>
+
+            <!-- Imagem da seção  Home -->
+            <article id="home_imagem">
+                <img src="./assets/img/astronauta.svg" alt="Capacete do astronauta com animação"/>
+            </article>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="about">
+            
+            <!-- Imagem da seção Sobre -->
+            <img src="./assets/img/user_01.svg" alt="Foto do perfil do Github"/>
+        
+            <!-- Texto da seção Sobre -->
+            <article id="about_texto">
+                <h1>Sobre mim</h1>
+                <p>Mussum Ipsum, cacilds vidis litro abertis.  Interagi no mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! A ordem dos tratores não altera o pão duris. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+
+                <div id="about_github">
+                    <a href="https://github.com/Marialuiza-dev" target="_blank">Github</a>
+                    <p>200 seguidores</p>
+                    <p>20 repositórios</p>
+                </div>
+            </article>
+
+        </section>
+        
+        <!-- Seção de Contatos -->
+        <section id="contact">
+            <h4>Contate-me</h4>
+            <p>Mussum Ipsum, cacilds vidis litro abertis.  Interagi no mé, cursus quis, vehicula ac nisi. Quem manda na minha terra sou euzis! A ordem dos tratores não altera o pão duris. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+
+            <!-- Redes Sociais -->
+            <div id="icones_redes_sociais">
+                <a href="" target="_blank">
+                    <img src="./assets/img/linkedin.svg" alt="Ícone do LinkedIn"/>
+                </a>
+
+                <a href="https://github.com/Marialuiza-dev" target="_blank">
+                    <img src="./assets/img/github.svg" alt="Ícone do GitHub"/>
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="./assets/img/instagram.svg" alt="Ícone do Instagram"/>
+                </a>
+            </div>
+
+            <!-- Formulário de Contato -->
+            <form action="" method="POST">
+                <label for="nome">Nome</label>
+                <input
+                    id="nome"
+                    name="nome"
+                    type="text"
+                    placeholder="Digite o seu nome"
+                >
+                <span id="txtNome"></span>
+
+                <label for="email">E-mail</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="text"
+                    placeholder="Digite um endereço de e-mail válido"
+                >
+                <span id="txtEmail"></span>
+
+                <label for="assunto">Assunto</label>
+                <input
+                    id="assunto"
+                    name="assunto"
+                    type="text"
+                    placeholder="Digite o assunto"
+                >
+                <span id="txtAssunto"></span>
+
+                <label for="mensagem">Mensagem</label>
+                
+                <textarea 
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Digite a sua mensagem"
+                >
+                </textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Maria Luíza Torres Andrade Freitas
+    </footer>
+</body>
+</html>
